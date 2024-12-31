@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipe Post</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            font-family:'Brush Script MT';
+            background-color: #6a4e3c;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-family: 'Copperplate', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .recipe-post {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+     
+        .brownie {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+         .feedback {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+
+        h3 {
+            font-size: 1.5em;
+            color: rgb(23, 23, 23);
+        }
+
+        ul, ol {
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #5a3d2c;
+        }
+
+        img {
+            max-width: 70%;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .social-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .social-buttons button:hover {
+            background-color: #45a049;
+        }
+
+        .social-buttons .like {
+            background-color: #3b5998; /* Facebook-like button */
+        }
+
+        .social-buttons .share {
+            background-color: #55acee; /* Twitter-share button */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a4e3c;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 1.1em;
+            color:  rgb(23, 23, 23);
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            background-color: #6a4e3c;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5a3d2c;
+        }
+
+        @media (max-width: 750px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .recipe-post {
+                padding: 15px;
+            }
+
+            img {
+                max-width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><i><u>Classy Baking</u></i></h1>
+</header>
+
+<div class="recipe-post">
+    <h3>Chocolate Chip Cookies</h3>
+
+    <section id="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>2 1/4 cups all-purpose flour</li>
+            <li>1/2 teaspoon baking soda</li>
+            <li>1 cup unsalted butter, at room temperature</li>
+            <li>3/4 cup granulated sugar</li>
+            <li>3/4 cup packed brown sugar</li>
+            <li>1 teaspoon salt</li>
+            <li>2 teaspoons pure vanilla extract</li>
+            <li>2 large eggs</li>
+            <li>2 cups semisweet chocolate chips</li>
+        </ul>
+    </section>
+
+    <section id="instructions">
+        <h3>Instructions</h3>
+        <ol>
+            <li>Preheat the oven to 350°F (175°C).</li>
+            <li>In a small bowl, whisk together flour and baking soda; set aside.</li>
+            <li>In a large bowl, beat together the butter, granulated sugar, brown sugar, and salt until creamy.</li>
+            <li>Add vanilla extract and eggs, and beat until fluffy.</li>
+            <li>Gradually add the flour mixture and mix until combined.</li>
+            <li>Stir in the chocolate chips.</li>
+            <li>Drop rounded tablespoons of dough onto ungreased baking sheets.</li>
+            <li>Bake for 10-12 minutes or until golden brown.</li>
+            <li>Let cookies cool on the baking sheets for 2 minutes before transferring them to wire racks.</li>
+        </ol>
+    </section>
+
+    <section id="image">
+        <h3>Final Product</h3>
+        <img src="https://www.allrecipes.com/thmb/1JcvODon-ZDuegMxZ8xyNEXX_BA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-10740-pumpkin-chocolate-chip-cookies-iii.ddmfs-hero_7687-c5380eea8eb84de8950c03157598d91d.jpg" alt="Chocolate Chip Cookies">
+    </section>
+
+    <div class="social-buttons">
+        <button class="like" onclick="likePost()">Like</button>
+        <button class="share" onclick="sharePost()">Share</button>
+    </div>
+</div>
+
+<div class="brownie">
+<h3> Chocolate Brownie</h3>
+
+  <section id="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1/2 cup unsalted butter (melted)
+<li>1 cup granulated sugar</li>
+<li>2 large eggs</li>
+<li>1 teaspoon vanilla extract</li>
+<li>1/3 cup unsweetened cocoa powder</li>
+<li>1/2 cup all-purpose flour</li>
+<li>1/4 teaspoon baking powder</li>
+<li>1/4 teaspoon salt</li>
+<li>1/4 cup chocolate chips (optional, for added texture)</li>
+         
+        </ul>
+    </section>
+ <section id="instructions">
+        <h3>Instructions</h3>
+        <ol>
+      <li> Preheat the oven to 350°F (175°C) and grease a 8x8-inch pan.
+<li>Mix wet ingredients: Whisk melted butter, sugar, eggs, and vanilla until smooth.</li>
+<li>Combine dry ingredients: Sift together cocoa powder, flour, baking powder, and salt.</li>
+<li>Mix together: Add dry ingredients to wet ingredients and stir until just combined.</li>
+<li>Optional: Fold in chocolate chips.</li>
+<li>Bake: Pour batter into the pan and bake for 20-25 minutes, until a toothpick comes out with a few crumbs.</li>
+<li>Cool and slice: Let brownies cool before cutting into squares.</li>
+        </ol>
+    </section>
+ <section id="image">
+        <h3>Final Product</h3>
+        <img src="https://40204166.fs1.hubspotusercontent-na1.net/hub/40204166/hubfs/Best%20Chocolate%20Brownie%20Recipe%20NZ%20Chelsea%20Sugar.jpg?width=789&height=645&name=Best%20Chocolate%20Brownie%20Recipe%20NZ%20Chelsea%20Sugar.jpg"alt="Chocolate Brownie">
+    </section>
+
+ <div class="social-buttons">
+        <button class="like" onclick="likePost()">Like</button>
+        <button class="share" onclick="sharePost()">Share</button>
+    </div>
+</div>
+
+
+
+
+  <script>
+    function likePost() {
+        alert("You liked this post!");
+    }
+
+    function sharePost() {
+        alert("You shared this post!");
+    }
+</script>
+<div class="feedback">
+<section id="feedback">
+    <h3>Submit Your Feedback</h3>
+    <form action="#" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit Feedback">
+    </form>
+</section>
+</div>
+
+
+<footer>
+    <p>&copy; 2024 Recipe Book</p>
+</footer>
+
+
+
+
+</body>
+</html>
